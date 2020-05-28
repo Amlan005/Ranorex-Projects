@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="55.17s"
+		durationms="55166"
+		type="root"
+		rid="b6bb10f5ba67f7a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="renorex.kolkata"
+		rxversion="9.2.0.0"
+		host="DTK-RANOREX"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="16-04-2020 12:57:46"
+		timestampiso="2020-04-16T07:27:46"
+		endtime="16-04-2020 12:58:41"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.969"
+			timeRelativeToTestModuleStartTime="00:01.969"
+			timeWallClock="12:57:48"
+			time="00:01.969"
+			level="Success"
+			category="User">
+			<message>
+				Launched Configuration Utility
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LaunchApp.cs"
+				codeline="35"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.017"
+			timeRelativeToTestModuleStartTime="00:18.017"
+			timeWallClock="12:58:04"
+			time="00:18.017"
+			level="Success"
+			category="User">
+			<message>
+				Configuration is loaded
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LoadConfig.cs"
+				codeline="31"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.014"
+			timeRelativeToTestModuleStartTime="00:30.014"
+			timeWallClock="12:58:16"
+			time="00:30.014"
+			level="Success"
+			category="User">
+			<message>
+				Bleeding is added under General Tab
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Adding_Events_To_General_Tab.cs"
+				codeline="34"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.611"
+			timeRelativeToTestModuleStartTime="00:30.611"
+			timeWallClock="12:58:16"
+			time="00:30.611"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases: 6
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.612"
+			timeRelativeToTestModuleStartTime="00:30.612"
+			timeWallClock="12:58:16"
+			time="00:30.612"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases executed: 1
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.613"
+			timeRelativeToTestModuleStartTime="00:30.613"
+			timeWallClock="12:58:16"
+			time="00:30.613"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases passed: 0
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.168"
+			timeRelativeToTestModuleStartTime="00:55.168"
+			timeWallClock="12:58:41"
+			time="00:55.168"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

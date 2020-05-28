@@ -1,0 +1,677 @@
+﻿<repository
+id="96d842d9-f660-40a5-a2ef-823f01e1f98c"
+name="Events">
+	<codegen
+	classname="Events"
+	namespace="TempusSimulatorDemoTest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b4a76f51-171f-44d2-90b3-db61ed64877b"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<folder
+		capname="unknown"
+		id="bb3cb258-9325-4555-9919-e53f4a90f88b"
+		isrooted="False"
+		name="Report_Type"
+		searchtimeout="0ms">
+			<appfolder
+			addcaps="contextmenu,nativewindow,wpfwin32element,wpfelement"
+			capname="contextmenu"
+			id="62c266cf-85b9-42ab-a1ab-a3eb362160fc"
+			isrooted="True"
+			name="TempusProConfigurationUtility1"
+			refpath="/contextmenu[@processname='Tempus Pro Configuration Utility']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="listitem,wpfelement"
+				capname="listitem"
+				id="26dc1e1c-fdc6-4918-9c3d-39254a2492e8"
+				name="TC3_ReportType"
+				refimgid="7a242e8f-acab-4317-b929-590c4a1a2f25"
+				refpath="/contextmenu[@processname='Tempus Pro Configuration Utility']/container[@automationid='grid']/listitem[@text='TC3']"
+				searchtimeout="30000ms">
+					/contextmenu[@processname='Tempus Pro Configuration Utility']/?/?/listitem[@text='TC3']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="24c34580-94e3-4725-9352-5a8e125bf30e"
+				name="HighlightTC3LinkedEvents"
+				refimgid="e296468d-e9db-4595-813e-1b09fbf7b2bb"
+				refpath="/contextmenu[@processname='Tempus Pro Configuration Utility']/menuitem[@automationid='mnuHeighlightTC3Events']/text[@caption>'Highlight TC3 linked even']"
+				searchtimeout="30000ms">
+					/contextmenu[@processname='Tempus Pro Configuration Utility']/?/?/text[@caption&gt;'Highlight TC3 linked even']
+				</item>
+				<basepath>
+					/contextmenu[@processname='Tempus Pro Configuration Utility']
+				</basepath>
+				<icon>
+					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
+				</icon>
+			</appfolder>
+		</folder>
+		<folder
+		capname="unknown"
+		id="125dded6-3fcd-41f6-b0d7-335bca7b8183"
+		isrooted="False"
+		name="Intervention"
+		searchtimeout="0ms">
+		</folder>
+		<folder
+		capname="unknown"
+		id="a960e3da-1506-4694-88f0-f5e056ca8a6b"
+		isrooted="False"
+		name="Fluid"
+		searchtimeout="0ms">
+		</folder>
+		<folder
+		capname="unknown"
+		id="25b8f0d0-ecd9-4b49-b837-87e2592a41dd"
+		isrooted="False"
+		name="Drug"
+		searchtimeout="0ms">
+		</folder>
+		<folder
+		capname="unknown"
+		id="3ec0c71c-7ce5-489a-a4d4-b47e6a2a7170"
+		isrooted="False"
+		name="General"
+		searchtimeout="0ms">
+		</folder>
+		<folder
+		capname="unknown"
+		id="40389da1-4ec4-4ac4-9bc4-0ace2eb72c8f"
+		isrooted="False"
+		name="Injury"
+		searchtimeout="0ms">
+		</folder>
+		<folder
+		capname="unknown"
+		id="cb4b15b4-6a86-4232-b276-cd1dba051f65"
+		isrooted="False"
+		name="Dressing"
+		searchtimeout="0ms">
+		</folder>
+		<folder
+		capname="unknown"
+		id="2bc21cda-854e-48d3-ac3c-c71592c28994"
+		isrooted="False"
+		name="Burn"
+		searchtimeout="0ms">
+		</folder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="3abe4702-7a2a-49b5-9ce5-6bffc3b79c09"
+		isrooted="True"
+		name="TempusProConfigurationUtility"
+		refpath="/form[@title='Tempus Pro Configuration Utility']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="4183af41-4796-44a1-bd7e-2a12007c9685"
+			name="Events"
+			refimgid="03852a7f-a26a-49d1-be95-4ab5de08b661"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/text[@caption='Events']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/?/?/text[@caption='Events']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="f467e039-f019-4623-a22f-fc7c774a4428"
+			name="Assessment"
+			refimgid="561421d5-190e-4017-9651-94aaf139a3a7"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnObservation']/container[@caption='']/text[@automationid='txtObservation']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnObservation']/?/?/text[@automationid='txtObservation']
+			</item>
+			<item
+			addcaps="checkbox,wpfelement"
+			capname="checkbox"
+			id="d96134e7-3d36-4879-a68b-fa7b2edf4f8a"
+			name="GroupEnd_Bleeding"
+			refimgid="971ea497-6c52-4e6f-9e01-03ae7d5a1662"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='0']/list/cell[@columnindex='2']/checkbox"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='0']/list/?/?/checkbox
+			</item>
+			<folder
+			addcaps="table,wpfelement"
+			capname="table"
+			id="cc1a136b-ec31-4e34-96af-bb6a1256d4cf"
+			isrooted="True"
+			name="MainDG"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="739d84f9-18d6-444a-a0dc-b8eae45dfff1"
+				name="GroupEnd_CardiacArrest"
+				refimgid="157675e9-3ae1-4d10-82f1-f9094b1bb4d6"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='1']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='1']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="51a7ceda-24c4-46d9-a467-a8d026d5796a"
+				name="GroupEnd_Chocking"
+				refimgid="9a1ca616-5d2b-43f5-a86a-bb91581f4bcf"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='2']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='2']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="375bd45a-3423-4d1c-b685-9ec39c66e36a"
+				name="GroupEnd_Confused"
+				refimgid="20b762ba-85e0-45ef-b707-201ec0c1e28c"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='3']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='3']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="0f22253f-a5d4-46d0-bab8-1e8b0f6e5d69"
+				name="GroupEnd_Disoriented"
+				refimgid="24c700c7-3e93-4d9c-b2f2-3878c8cc6663"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='4']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='4']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="3d77241e-99fe-4f4e-b854-f6e69a1838fb"
+				name="GroupEnd_Fainted"
+				refimgid="0950b97f-af41-4f0f-9395-09a6909f3926"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='5']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='5']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="9d5c45a0-54fe-484d-9d85-ebc3e22cbcf9"
+				name="GroupEnd_LossOfPulse"
+				refimgid="16e5f101-a812-4a62-9c36-63465d5d6206"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='6']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='6']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="35580cce-39d9-4b6d-979d-fc9df3c1b2aa"
+				name="GroupEnd_Seizure"
+				refimgid="1d5a3a29-70c4-4826-8cea-a6d2a0481e37"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='7']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='7']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="84580109-bb34-4109-a9b8-3efe584f526a"
+				name="GroupEnd_RespiratoryArrest"
+				refimgid="e03a60ac-ea97-47b2-88e7-9425e6a46c24"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='8']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='8']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="fe71842e-83c1-4ffb-9d54-9cece28f6716"
+				name="GroupEnd_ROSC"
+				refimgid="c3c3b6c9-dbe4-49b5-8294-1b9e6cd04bc4"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='9']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='9']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="20df56c9-e4a2-44ed-9104-6be475487cdf"
+				name="GroupEnd_Vomited"
+				refimgid="e704ace0-fd95-46b9-8ea2-b637bb5ac25b"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='10']/list/cell[@columnindex='2']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='10']/list/?/?/checkbox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="checkbox"
+				id="f5f96745-592d-470f-ae4d-5904d130913d"
+				name="General_Bleeding"
+				refimgid="c97ebea3-d652-4f30-a4c8-a1d0e017de0c"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='0']/list/cell[@columnindex='3']/checkbox"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='0']/list/cell[@columnindex='3']/checkbox
+				</item>
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="baf8bc04-de44-471b-9157-f46b62179cd4"
+				name="GeneralTabBleeding"
+				refimgid="b972108c-099b-4f2e-aa47-ce6413c5a82e"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='24']/list/cell[@text='Bleeding']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='24']/?/?/cell[@text='Bleeding']
+				</item>
+				<item
+				addcaps="button,wpfelement"
+				capname="button"
+				id="f2dcc235-80f3-4ce2-878c-a912d40f2207"
+				name="GeneralTabScrollDown"
+				refimgid="e53b774c-8235-432c-9b18-18240903442d"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[1]/scrollbar[@automationid='PART_VerticalScrollBar']/slider[@automationid='PART_Track']/button[2]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/scrollbar[@automationid='PART_VerticalScrollBar']/slider/button[2]
+				</item>
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="d8e0c683-d6d5-492d-9e8d-8428f4906f65"
+				name="NewAddedEvent"
+				refimgid="a9d51d71-564b-4e86-81bf-e00a61fcbeb6"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='11']/list/cell[@text='NewEvent']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='11']/list/cell[@text='NewEvent']
+				</item>
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="55186d83-a095-411e-aa20-3ad00e44aefd"
+				name="CODERESERVEDLABEL"
+				refimgid="d84560c9-6966-44c0-b300-6660a3059670"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='12']/list/cell[@text='CODE_RESERVED_LABEL']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='12']/?/?/cell[@text='CODE_RESERVED_LABEL']
+				</item>
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="afcf2b0b-d877-4327-8176-88a64ad3561c"
+				name="CODERESERVEDBLANK"
+				refimgid="86906c28-6094-4047-8da3-6efec90f37ef"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/container[2]/row[@index='11']/list/cell[@text='CODE_RESERVED_BLANK']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']/?/?/row[@index='11']/?/?/cell[@text='CODE_RESERVED_BLANK']
+				</item>
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="977b7b12-a7a4-4cf7-a721-ba4532f917cc"
+				name="AirwayIntact"
+				refimgid="5af17766-9ebc-4aba-b186-412b500be316"
+				refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/table[@automationid='mainDG']/row[@index='0']/list/cell[@text='Airway Intact']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']//cell[@text='Airway Intact']
+				</item>
+				<basepath>
+					/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/table[@automationid='mainDG']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="8cf123a8-22ae-4d60-aef2-87fe8cadd2b5"
+			name="General"
+			refimgid="72c51908-bcb9-470a-8406-5dc0aee53220"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnGeneral']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnGeneral']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="939785a1-caff-4f77-84f7-8c1a91a5daa7"
+			name="AddEvent"
+			refimgid="5d635e19-5922-4ac4-b3a4-ffc0546bbafa"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnAdd']/container[@caption='']/text[@automationid='txtAdd']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnAdd']/?/?/text[@automationid='txtAdd']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ef085c54-f750-4259-9f5d-406068e77ac7"
+			name="YesButtonForMultipleFunctions"
+			refimgid="e9824595-e006-45b1-92de-f5b92503d52c"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/button[@text='&amp;Yes']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="d7a16218-0d86-4e14-9a03-eef36d86bf7f"
+			name="AddLabel"
+			refimgid="34967a57-9ef5-4d85-835a-722cced621ff"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnLabel']/container[@caption='']/text[@automationid='txtLabel']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnLabel']/?/?/text[@automationid='txtLabel']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="9af0fb06-20ae-4605-94bb-21c649c61aae"
+			name="AddBlank"
+			refimgid="1dce6ce0-a82d-46d7-b8c9-5f3fbec8c7c1"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnBlankButton']/container[@caption='']/text[@automationid='txtBlankButton']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnBlankButton']/?/?/text[@automationid='txtBlankButton']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="2ca62249-66d3-4bfa-b4fb-bc405ece68b5"
+			name="DeleteButton"
+			refimgid="8927d608-51eb-42d4-a9f4-c663aa342ceb"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnDelete']/container[@caption='']/text[@automationid='txtDelete']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnDelete']/?/?/text[@automationid='txtDelete']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="df487ab5-509c-4e26-8661-415914efae77"
+			name="EditButton"
+			refimgid="b0edab37-81db-4188-9bc7-7456f4dc9666"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnEdit']/container[@caption='']/text[@automationid='txtEdit']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnEdit']/?/?/text[@automationid='txtEdit']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="727965fd-e55a-485c-865f-45460c41236a"
+			name="File"
+			refimgid="ce02f990-95b9-4349-9665-ffc3000b7599"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/menuitem[@text='File']/text[@caption='File']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/menuitem[@text='File']/text[@caption='File']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="2fe382a2-9685-4939-9d9f-f9bded694e2e"
+			name="ReportTypeDropDown"
+			refimgid="27e9f4ba-dad9-4271-a0a5-76f94eca950c"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/combobox[@automationid='cmbReportType']/button[@automationid='toggleButton']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']//combobox[@automationid='cmbReportType']/button[@automationid='toggleButton']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="961c7648-8a65-43f5-94e9-2cfb74c1a0ba"
+			name="Settings"
+			refimgid="66fedc2c-fedd-4011-a556-bb20e7b1ca34"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/menuitem[@text='Settings']/text[@caption='Settings']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/menuitem[@text='Settings']/text[@caption='Settings']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="34a27949-466d-45f0-abe3-a69fce7a1112"
+			name="ClearAllButton"
+			refimgid="967ea7f0-6008-415d-8478-fb6b97cbacb0"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnClearAll']/container[@caption='']/text[@automationid='txtClearAll']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnClearAll']/?/?/text[@automationid='txtClearAll']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="f4b8ede6-528e-4157-b3e4-27dfc6902180"
+			name="DownButton"
+			refimgid="eaefdb1f-302e-47ab-96e0-b5a37d43baeb"
+			refpath="/form[@title='Tempus Pro Configuration Utility']/menubar[1]/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/statusbar/button[@automationid='BtnDown']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']/?/?/button[@automationid='BtnDown']
+			</item>
+			<basepath>
+				/form[@title&gt;'Tempus Pro Configuration']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIRSURBVDhPnZJLTxNhFIZrjZZgIr1Ob2NLIJYF
+JhBxQcvFGGNAdnUKkeqmRlYKJAItSq+KpP0BNSmLpoZdd7Lovv9A4qrpojtdG9fmdd5TZ5Qgmtjk
+zel3Ls8555vP0mw2L1ar1cb/qFarNSzxeLzhcNjh8bhB63Q6oCgesX6/D6oaFPHsDagYCQdMKX4V
+AnC7XbDZLsNqvQD+er0eut0u2u22gLe2XqBSqeBodRCpGRfW7zgQv+XGl4y1DxgeDmNo6Crm5mbR
+arVQLpfR6XT0zqoABgZsODn5iPcPB/Fp4xK279rxTruCzwYgHA7JiEw6PKwhmVzF8fEHGZ2TBAJ+
+1Ot1LE168DVrwTdd30sW7N6z9wHGnn/TdHQaU1M3z/j/Cdg/OEDy8SPsZNJ4tv4cC4sLWF5ZMePn
+ArxeRU9cls57uawom8+JnZickDjzzgWMjo6YBbQbm5sovi7JOV8siM/n8/4ZEAwGsLh0H0/X1qSA
+X8KIEZIr5M9OwJt+83ZfHhHfRaFUlGIWGMVU6klK/IREY9E+IBK5Di2hyWgUE1wup1iKo7KYL5Ng
+avzGOEKha33AA00TIhMVfVwWpXczkmjcA/8zx4Bup3d+rcCd2ZnE+dvzkjCrv0ruacBomcOV2Cgy
+FjkNKOiBl3uvkCvmzUujnz5+ERbTbwAYF0AikTgyDtwxNhMzg79r7GfH0wriBzEF0xmL8+EcAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d366b60e-7983-4b93-86d7-dfa7102a6af6"
+		isrooted="True"
+		name="EventEditor"
+		refpath="/form[@title='Event Editor']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5bad8956-2039-4969-bafa-46c91f568816"
+			name="ButtonOK"
+			refimgid="525638ae-2d21-465b-bb19-1168e17eff67"
+			refpath="/form[@title='Event Editor']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Event Editor']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Event Editor']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIqSURBVDhPnVJNbxJRFEUIC3cGrAwDAanaNhFt
+oJagLSnFhAVJ3RS6UCmtie1QGpvAtElpYYBi3djYf8AaEzYs+AGEmBgTVmxITFy5k99wfPfaGaKG
+mLg4ue9+vHPvue+ZNjZSWFgI/hfm5x/C5PPdRrPZRK1WhaZpcDolNBoNdDodxONx7O/nsLu7A0ly
+4EvOiq95C76pZnw/MsMmuWGam5vFYDBAt9uFw3ELrVYL/X4fkUgE6fRLXF5+wGj0A3a7DZ+zVhzH
+b2DriR0fX1zHHY9zTNDr9WCxmKEoCobDIWKxVWxvb+Hi4j1KpVO02218UqwYFa/hediOV8u2MYEs
+SwJOhtvtYhkul8znqamb3J1iD+46EfU7GKsCsqhhAiqchGAwwLZ+/hZer5eJ9Bw1mUhASSo+LZcQ
+CARwImTQIslfWl4yaiYS5NUCCocqSlqZL+vQxGuR1FAo9O8JqBtdSqZS8Hg9KJ4UDaJjcf6LgEYk
+6/ffR0V0okL16NDI65LeHByw/xsB6SpXNMzM3EP4cRjryXUuVrJZg4BG1yWRpYZMUH93zoFEIsF2
+R/w8GlEf1yvGp0+WEf+C/M1MBvLVUzNBMpWEsver00p0hRdIEsjXSXTkCwWeLBqNjgliT2OcXHu2
+xsla/YzHzasqqmc1fg2Ka9UKsrk9Y1cGAR1mhaXi9Gba0Exj0+KI4LWQNT3tw+LiIyPPBKSPDgQq
+ps66r4NilPszLkkO/ATcksxmIbHr5gAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="a486d313-ff3b-4730-9492-0d89acb5363b"
+		isrooted="True"
+		name="AddEvent"
+		refpath="/form[@title='Add Event']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="table,wpfelement"
+			capname="table"
+			id="72a04c24-8e37-4d4a-80f1-61f655c05bd8"
+			isrooted="True"
+			name="DgName"
+			refpath="/form[@title='Add Event']/table[@automationid='dgName']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,wpfelement"
+				capname="button"
+				id="f45b9002-b556-441b-9ac8-ff34e7076c6e"
+				name="OKButton"
+				refimgid="949adced-70e0-453b-9443-a372777f706e"
+				refpath="/form[@title='Add Event']/table[@automationid='dgName']/container[5]/button[@automationid='btnOK']"
+				searchtimeout="30000ms">
+					/form[@title='Add Event']/table[@automationid='dgName']/?/?/button[@automationid='btnOK']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="22c7c2c7-b0f9-4af3-a285-1ad3fd8f2c7e"
+				name="Code"
+				refimgid="4e550912-60c2-4514-9f2b-2b077eb47acd"
+				refpath="/form[@title='Add Event']/table[@automationid='dgName']/container[@automationid='Grid1']/text[@automationid='txtID']"
+				searchtimeout="30000ms">
+					/form[@title='Add Event']/table[@automationid='dgName']/?/?/text[@automationid='txtID']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="b1715879-7de8-40ab-9264-4ab8138e8e51"
+				name="EventName"
+				refimgid="b1fac58a-c3a9-4d84-9254-cfefcc438153"
+				refpath="/form[@title='Add Event']/table[@automationid='dgName']/row[@index='0']/list/cell[@columnindex='0']/text[@caption='']"
+				searchtimeout="30000ms">
+					/form[@title='Add Event']/table[@automationid='dgName']/row/list/?/?/text[@caption='']
+				</item>
+				<basepath>
+					/form[@title='Add Event']/table[@automationid='dgName']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Add Event']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIRSURBVDhPnZJLTxNhFIZrjZZgIr1Ob2NLIJYF
+JhBxQcvFGGNAdnUKkeqmRlYKJAItSq+KpP0BNSmLpoZdd7Lovv9A4qrpojtdG9fmdd5TZ5Qgmtjk
+zel3Ls8555vP0mw2L1ar1cb/qFarNSzxeLzhcNjh8bhB63Q6oCgesX6/D6oaFPHsDagYCQdMKX4V
+AnC7XbDZLsNqvQD+er0eut0u2u22gLe2XqBSqeBodRCpGRfW7zgQv+XGl4y1DxgeDmNo6Crm5mbR
+arVQLpfR6XT0zqoABgZsODn5iPcPB/Fp4xK279rxTruCzwYgHA7JiEw6PKwhmVzF8fEHGZ2TBAJ+
+1Ot1LE168DVrwTdd30sW7N6z9wHGnn/TdHQaU1M3z/j/Cdg/OEDy8SPsZNJ4tv4cC4sLWF5ZMePn
+ArxeRU9cls57uawom8+JnZickDjzzgWMjo6YBbQbm5sovi7JOV8siM/n8/4ZEAwGsLh0H0/X1qSA
+X8KIEZIr5M9OwJt+83ZfHhHfRaFUlGIWGMVU6klK/IREY9E+IBK5Di2hyWgUE1wup1iKo7KYL5Ng
+avzGOEKha33AA00TIhMVfVwWpXczkmjcA/8zx4Bup3d+rcCd2ZnE+dvzkjCrv0ruacBomcOV2Cgy
+FjkNKOiBl3uvkCvmzUujnz5+ERbTbwAYF0AikTgyDtwxNhMzg79r7GfH0wriBzEF0xmL8+EcAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="7ac9a3bc-1bf2-428f-b9df-d7570de27621"
+		isrooted="True"
+		name="EditEvent"
+		refpath="/form[@title='Edit Event']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="6f497806-521e-423a-b028-f7a4c694a0aa"
+			name="EditingEventName"
+			refimgid="91396c9a-da08-46b5-981c-6ab044f837e0"
+			refpath="/form[@title='Edit Event']/table[@automationid='dgName']/row[@index='0']/list/cell[@columnindex='0']/text[@caption='NewEvent']"
+			searchtimeout="30000ms">
+				/form[@title='Edit Event']/table[@automationid='dgName']/row/list/?/?/text[@caption='NewEvent']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="cf8423f5-aa96-4340-a430-edc47e13d663"
+			name="OKButton"
+			refimgid="8338a2b6-7698-4e40-8558-a59f10b05cfa"
+			refpath="/form[@title='Edit Event']/table[@automationid='dgName']/container[5]/button[@automationid='btnOK']"
+			searchtimeout="30000ms">
+				/form[@title='Edit Event']/table[@automationid='dgName']/?/?/button[@automationid='btnOK']
+			</item>
+			<basepath>
+				/form[@title='Edit Event']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIRSURBVDhPnZJLTxNhFIZrjZZgIr1Ob2NLIJYF
+JhBxQcvFGGNAdnUKkeqmRlYKJAItSq+KpP0BNSmLpoZdd7Lovv9A4qrpojtdG9fmdd5TZ5Qgmtjk
+zel3Ls8555vP0mw2L1ar1cb/qFarNSzxeLzhcNjh8bhB63Q6oCgesX6/D6oaFPHsDagYCQdMKX4V
+AnC7XbDZLsNqvQD+er0eut0u2u22gLe2XqBSqeBodRCpGRfW7zgQv+XGl4y1DxgeDmNo6Crm5mbR
+arVQLpfR6XT0zqoABgZsODn5iPcPB/Fp4xK279rxTruCzwYgHA7JiEw6PKwhmVzF8fEHGZ2TBAJ+
+1Ot1LE168DVrwTdd30sW7N6z9wHGnn/TdHQaU1M3z/j/Cdg/OEDy8SPsZNJ4tv4cC4sLWF5ZMePn
+ArxeRU9cls57uawom8+JnZickDjzzgWMjo6YBbQbm5sovi7JOV8siM/n8/4ZEAwGsLh0H0/X1qSA
+X8KIEZIr5M9OwJt+83ZfHhHfRaFUlGIWGMVU6klK/IREY9E+IBK5Di2hyWgUE1wup1iKo7KYL5Ng
+avzGOEKha33AA00TIhMVfVwWpXczkmjcA/8zx4Bup3d+rcCd2ZnE+dvzkjCrv0ruacBomcOV2Cgy
+FjkNKOiBl3uvkCvmzUujnz5+ERbTbwAYF0AikTgyDtwxNhMzg79r7GfH0wriBzEF0xmL8+EcAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

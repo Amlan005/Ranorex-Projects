@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.1m"
+		durationms="187624"
+		type="root"
+		rid="12db89e4e4a860a6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="renorex.kolkata"
+		rxversion="9.2.0.0"
+		host="DTK-RANOREX"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="28-04-2020 10:30:25"
+		timestampiso="2020-04-28T05:00:25"
+		endtime="28-04-2020 10:33:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.649"
+			timeRelativeToTestModuleStartTime="00:02.649"
+			timeWallClock="10:30:28"
+			time="00:02.649"
+			level="Success"
+			category="User">
+			<message>
+				Launched Configuration Utility
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LaunchAndCloseApp.cs"
+				codeline="35"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.752"
+			timeRelativeToTestModuleStartTime="00:07.752"
+			timeWallClock="10:30:33"
+			time="00:07.752"
+			level="Success"
+			category="User">
+			<message>
+				Launched Configuration Utility
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LaunchAndCloseApp.cs"
+				codeline="35"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.358"
+			timeRelativeToTestModuleStartTime="00:29.358"
+			timeWallClock="10:30:55"
+			time="00:29.358"
+			level="Success"
+			category="User">
+			<message>
+				Configuration is loaded
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LoadConfig.cs"
+				codeline="31"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.016"
+			timeRelativeToTestModuleStartTime="00:47.016"
+			timeWallClock="10:31:12"
+			time="00:47.016"
+			level="Success"
+			category="User">
+			<message>
+				New Event is added under Assessment Tab
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Event_Operations.cs"
+				codeline="71"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.571"
+			timeRelativeToTestModuleStartTime="00:47.571"
+			timeWallClock="10:31:13"
+			time="00:47.571"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases: 10
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.574"
+			timeRelativeToTestModuleStartTime="00:47.574"
+			timeWallClock="10:31:13"
+			time="00:47.574"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases executed: 2
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.614"
+			timeRelativeToTestModuleStartTime="00:47.614"
+			timeWallClock="10:31:13"
+			time="00:47.614"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases passed: 2
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:52.929"
+			timeRelativeToTestModuleStartTime="02:52.929"
+			timeWallClock="10:33:18"
+			time="02:52.929"
+			level="Always"
+			category="User">
+			<message>
+				FileCopied
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Reports.cs"
+				codeline="103"
+				loglvl="Always">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:07.441"
+			timeRelativeToTestModuleStartTime="03:07.441"
+			timeWallClock="10:33:33"
+			time="03:07.441"
+			level="Info"
+			category="User">
+			<message>
+				Email sent
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Reports.cs"
+				codeline="125"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

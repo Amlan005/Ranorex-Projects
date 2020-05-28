@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="26.1s"
+		durationms="26102"
+		type="root"
+		rid="2df7fd40c781810"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="renorex.kolkata"
+		rxversion="9.2.0.0"
+		host="DTK-RANOREX"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="21-03-2020 20:09:24"
+		timestampiso="2020-03-21T14:39:24"
+		endtime="21-03-2020 20:09:50"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.795"
+			timeRelativeToTestModuleStartTime="00:01.795"
+			timeWallClock="20:09:26"
+			time="00:01.795"
+			level="Success"
+			category="User">
+			<message>
+				Launching Configuration Utility
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LaunchApp.cs"
+				codeline="30"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.923"
+			timeRelativeToTestModuleStartTime="00:11.923"
+			timeWallClock="20:09:36"
+			time="00:11.923"
+			level="Success"
+			category="User">
+			<message>
+				Clicked on New patient defaults Tab
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\TabClicks.cs"
+				codeline="34"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.731"
+			timeRelativeToTestModuleStartTime="00:13.731"
+			timeWallClock="20:09:38"
+			time="00:13.731"
+			level="Success"
+			category="User">
+			<message>
+				Clicked on Events Tab
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\TabClicks.cs"
+				codeline="40"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.917"
+			timeRelativeToTestModuleStartTime="00:19.917"
+			timeWallClock="20:09:44"
+			time="00:19.917"
+			level="Success"
+			category="User">
+			<message>
+				Clicked on Communications Tab
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\TabClicks.cs"
+				codeline="45"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.981"
+			timeRelativeToTestModuleStartTime="00:25.981"
+			timeWallClock="20:09:50"
+			time="00:25.981"
+			level="Success"
+			category="User">
+			<message>
+				Clicked on Codes / Other Tab
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\TabClicks.cs"
+				codeline="50"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.005"
+			timeRelativeToTestModuleStartTime="00:26.005"
+			timeWallClock="20:09:50"
+			time="00:26.005"
+			level="Error"
+			category="User">
+			<message>
+				&#32;  at System.Net.Mail.DotAtomReader.ReadReverse(String data, Int32 index)<br/>   at System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32&amp; index)<br/>   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32&amp; index)<br/>   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)<br/>   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)<br/>   at System.Net.Mail.MailAddressCollection.Add(String addresses)<br/>   at TempusSimulatorDemoTest1.SendMail.MailReport(String mailfrom1, String mailto1, String mailsubject1, String mailbody1) in c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\SendMail.cs:line 41
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\SendMail.cs"
+				codeline="76"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

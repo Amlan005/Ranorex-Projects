@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TempusSimulatorDemoTest1"
+      id="7f97f16e-7978-4332-9b49-0af9c981500d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TempusSimulatorDemoTest1"
+      id="7f97f16e-7978-4332-9b49-0af9c981500d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

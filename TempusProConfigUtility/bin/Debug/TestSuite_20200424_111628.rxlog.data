@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.5m"
+		durationms="208721"
+		type="root"
+		rid="6551b9e1d618274"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="renorex.kolkata"
+		rxversion="9.2.0.0"
+		host="DTK-RANOREX"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="24-04-2020 11:16:28"
+		timestampiso="2020-04-24T05:46:28"
+		endtime="24-04-2020 11:19:56"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.905"
+			timeRelativeToTestModuleStartTime="00:01.905"
+			timeWallClock="11:16:29"
+			time="00:01.905"
+			level="Success"
+			category="User">
+			<message>
+				Launched Configuration Utility
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LaunchAndCloseApp.cs"
+				codeline="35"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.950"
+			timeRelativeToTestModuleStartTime="00:06.950"
+			timeWallClock="11:16:34"
+			time="00:06.950"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases: 10
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.952"
+			timeRelativeToTestModuleStartTime="00:06.952"
+			timeWallClock="11:16:34"
+			time="00:06.952"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases executed: 1
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.953"
+			timeRelativeToTestModuleStartTime="00:06.953"
+			timeWallClock="11:16:34"
+			time="00:06.953"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases passed: 1
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:02.076"
+			timeRelativeToTestModuleStartTime="03:02.076"
+			timeWallClock="11:19:30"
+			time="03:02.076"
+			level="Always"
+			category="User">
+			<message>
+				FileCopied
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Reports.cs"
+				codeline="103"
+				loglvl="Always">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:28.679"
+			timeRelativeToTestModuleStartTime="03:28.679"
+			timeWallClock="11:19:56"
+			time="03:28.679"
+			level="Error"
+			category="User">
+			<message>
+				&#32;  at System.Net.Mail.SmtpClient.Send(MailMessage message)<br/>   at TempusSimulatorDemoTest1.Reports.MailReport() in c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Reports.cs:line 124
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Reports.cs"
+				codeline="136"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

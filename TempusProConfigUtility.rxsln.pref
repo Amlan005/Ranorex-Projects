@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution TempusProConfigUtility[Ranorex Automation Helpers[]TempusProConfigUtility[]]]&#xD;&#xA;Solution TempusProConfigUtility\TempusProConfigUtility\BaseClass.cs&#xD;&#xA;Solution TempusProConfigUtility" />
+  <StartupProject value="{B41AB236-BB17-4DD5-842E-48818399DDCF}" />
+</Properties>

@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.5m"
+		durationms="149754"
+		type="root"
+		rid="15982162932efadb"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="renorex.kolkata"
+		rxversion="9.2.0.0"
+		host="DTK-RANOREX"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="20-04-2020 12:05:36"
+		timestampiso="2020-04-20T06:35:36"
+		endtime="20-04-2020 12:08:05"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.937"
+			timeRelativeToTestModuleStartTime="00:01.937"
+			timeWallClock="12:05:38"
+			time="00:01.937"
+			level="Success"
+			category="User">
+			<message>
+				Launched Configuration Utility
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LaunchAndCloseApp.cs"
+				codeline="35"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.017"
+			timeRelativeToTestModuleStartTime="00:18.017"
+			timeWallClock="12:05:54"
+			time="00:18.017"
+			level="Success"
+			category="User">
+			<message>
+				Configuration is loaded
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LoadConfig.cs"
+				codeline="31"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.119"
+			timeRelativeToTestModuleStartTime="01:05.119"
+			timeWallClock="12:06:41"
+			time="01:05.119"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Events.TempusProConfigurationUtility.YesButtonForMultipleFunctions' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Events.TempusProConfigurationUtility'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Event_Operations.cs"
+				codeline="133"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.914"
+			timeRelativeToTestModuleStartTime="01:06.914"
+			timeWallClock="12:06:43"
+			time="01:06.914"
+			level="Success"
+			category="User">
+			<message>
+				TC3 Events are NOT cleared under under Assessment Tab
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Event_Operations.cs"
+				codeline="139"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.023"
+			timeRelativeToTestModuleStartTime="01:08.023"
+			timeWallClock="12:06:44"
+			time="01:08.023"
+			level="Success"
+			category="User">
+			<message>
+				All the Standard Events are cleared
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Event_Operations.cs"
+				codeline="143"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.040"
+			timeRelativeToTestModuleStartTime="01:08.040"
+			timeWallClock="12:06:44"
+			time="01:08.040"
+			level="Success"
+			category="User">
+			<message>
+				Launched Configuration Utility
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LaunchAndCloseApp.cs"
+				codeline="35"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.263"
+			timeRelativeToTestModuleStartTime="01:18.263"
+			timeWallClock="12:06:54"
+			time="01:18.263"
+			level="Success"
+			category="User">
+			<message>
+				Configuration is loaded
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\LoadConfig.cs"
+				codeline="31"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:08.472"
+			timeRelativeToTestModuleStartTime="02:08.472"
+			timeWallClock="12:07:44"
+			time="02:08.472"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Events.TempusProConfigurationUtility.YesButtonForMultipleFunctions' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Events.TempusProConfigurationUtility'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Event_Operations.cs"
+				codeline="133"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:10.262"
+			timeRelativeToTestModuleStartTime="02:10.262"
+			timeWallClock="12:07:46"
+			time="02:10.262"
+			level="Success"
+			category="User">
+			<message>
+				TC3 Events are NOT cleared under under Assessment Tab
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Event_Operations.cs"
+				codeline="139"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.342"
+			timeRelativeToTestModuleStartTime="02:11.342"
+			timeWallClock="12:07:47"
+			time="02:11.342"
+			level="Success"
+			category="User">
+			<message>
+				All the Standard Events are cleared
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Event_Operations.cs"
+				codeline="143"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.948"
+			timeRelativeToTestModuleStartTime="02:11.948"
+			timeWallClock="12:07:48"
+			time="02:11.948"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases: 10
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.951"
+			timeRelativeToTestModuleStartTime="02:11.951"
+			timeWallClock="12:07:48"
+			time="02:11.951"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases executed: 1
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.952"
+			timeRelativeToTestModuleStartTime="02:11.952"
+			timeWallClock="12:07:48"
+			time="02:11.952"
+			level="Info"
+			category="User">
+			<message>
+				Total test cases passed: 1
+			</message>
+			<metainfo
+				codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\BaseClass.cs"
+				codeline="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:29.756"
+			timeRelativeToTestModuleStartTime="02:29.756"
+			timeWallClock="12:08:05"
+			time="02:29.756"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

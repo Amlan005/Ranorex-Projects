@@ -1,0 +1,1319 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TempusProConfigUtility</name>
+    </assembly>
+    <members>
+        <member name="T:TempusSimulatorDemoTest1.Adding_Events_To_General_Tab">
+            <summary>
+            Description of Adding__Events_To_General_Tab.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.BaseClass">
+            <summary>
+            Description of BaseClass.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.ReportPieChart">
+            <summary>
+            Description of ReportPieChart.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.TestDataFile">
+            <summary>
+            Description of Class1.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.Event_Operations">
+            <summary>
+            Description of Event_AssessmentOption.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LoadConfig">
+            <summary>
+            Description of LoadConfig.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LoadConfiguration">
+            <summary>
+            The class representing the LoadConfiguration element repository.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.LoadConfiguration.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfiguration.Instance">
+            <summary>
+            Gets the singleton class instance representing the LoadConfiguration element repository.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfiguration.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfiguration.LoadConfigWebElements">
+            <summary>
+            The LoadConfigWebElements folder.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LoadConfigurationFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LoadConfigurationFolders.LoadConfigWebElementsFolder">
+            <summary>
+            The LoadConfigWebElementsFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.LoadConfigurationFolders.LoadConfigWebElementsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoadConfigWebElements  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.LoadConfigWebElementsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.LoadConfigWebElementsFolder.TempusProConfigurationUtility1">
+            <summary>
+            The TempusProConfigurationUtility1 folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.LoadConfigWebElementsFolder.BrowseForFolder">
+            <summary>
+            The BrowseForFolder folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.LoadConfigWebElementsFolder.TempusProConfigurationUtility">
+            <summary>
+            The TempusProConfigurationUtility folder.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtility1AppFolder">
+            <summary>
+            The TempusProConfigurationUtility1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtility1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TempusProConfigurationUtility1  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtility1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtility1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtility1AppFolder.Load">
+            <summary>
+            The Load item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtility1AppFolder.LoadInfo">
+            <summary>
+            The Load item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LoadConfigurationFolders.BrowseForFolderAppFolder">
+            <summary>
+            The BrowseForFolderAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.LoadConfigurationFolders.BrowseForFolderAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BrowseForFolder  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.BrowseForFolderAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.BrowseForFolderAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.BrowseForFolderAppFolder.TreeItem601033TempusProConfig">
+            <summary>
+            The TreeItem601033TempusProConfig item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.BrowseForFolderAppFolder.TreeItem601033TempusProConfigInfo">
+            <summary>
+            The TreeItem601033TempusProConfig item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.BrowseForFolderAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.BrowseForFolderAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtilityAppFolder">
+            <summary>
+            The TempusProConfigurationUtilityAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtilityAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TempusProConfigurationUtility  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtilityAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtilityAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtilityAppFolder.File1">
+            <summary>
+            The File1 item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LoadConfigurationFolders.TempusProConfigurationUtilityAppFolder.File1Info">
+            <summary>
+            The File1 item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.Modules.UserCodeModule1">
+            <summary>
+            Description of UserCodeModule1.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.Modules.UserCodeModule1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.Modules.UserCodeModule1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TempusSimulatorDemoTest1.Recording1.repo">
+            <summary>
+            Holds an instance of the TempusSimulatorDemoTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TempusSimulatorDemoTest1.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.ConfigFileReader">
+            <summary>
+            Description of Class1.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.CompareAttributes">
+            <summary>
+            Description of CompareAttributes.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.Events">
+            <summary>
+            The class representing the Events element repository.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.Events.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.Instance">
+            <summary>
+            Gets the singleton class instance representing the Events element repository.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.Report_Type">
+            <summary>
+            The Report_Type folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.Intervention">
+            <summary>
+            The Intervention folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.Fluid">
+            <summary>
+            The Fluid folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.Drug">
+            <summary>
+            The Drug folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.General">
+            <summary>
+            The General folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.Injury">
+            <summary>
+            The Injury folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.Dressing">
+            <summary>
+            The Dressing folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.Burn">
+            <summary>
+            The Burn folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.TempusProConfigurationUtility">
+            <summary>
+            The TempusProConfigurationUtility folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.EventEditor">
+            <summary>
+            The EventEditor folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.AddEvent">
+            <summary>
+            The AddEvent folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.Events.EditEvent">
+            <summary>
+            The EditEvent folder.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.Report_TypeFolder">
+            <summary>
+            The Report_TypeFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.Report_TypeFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Report_Type  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.Report_TypeFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.Report_TypeFolder.TempusProConfigurationUtility1">
+            <summary>
+            The TempusProConfigurationUtility1 folder.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtility1AppFolder">
+            <summary>
+            The TempusProConfigurationUtility1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtility1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TempusProConfigurationUtility1  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtility1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtility1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtility1AppFolder.TC3_ReportType">
+            <summary>
+            The TC3_ReportType item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtility1AppFolder.TC3_ReportTypeInfo">
+            <summary>
+            The TC3_ReportType item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtility1AppFolder.HighlightTC3LinkedEvents">
+            <summary>
+            The HighlightTC3LinkedEvents item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtility1AppFolder.HighlightTC3LinkedEventsInfo">
+            <summary>
+            The HighlightTC3LinkedEvents item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.InterventionFolder">
+            <summary>
+            The InterventionFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.InterventionFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Intervention  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.InterventionFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.FluidFolder">
+            <summary>
+            The FluidFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.FluidFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Fluid  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.FluidFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.DrugFolder">
+            <summary>
+            The DrugFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.DrugFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Drug  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DrugFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.GeneralFolder">
+            <summary>
+            The GeneralFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.GeneralFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new General  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.GeneralFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.InjuryFolder">
+            <summary>
+            The InjuryFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.InjuryFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Injury  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.InjuryFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.DressingFolder">
+            <summary>
+            The DressingFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.DressingFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Dressing  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DressingFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.BurnFolder">
+            <summary>
+            The BurnFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.BurnFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Burn  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.BurnFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder">
+            <summary>
+            The TempusProConfigurationUtilityAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TempusProConfigurationUtility  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.Events">
+            <summary>
+            The Events item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.EventsInfo">
+            <summary>
+            The Events item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.Assessment">
+            <summary>
+            The Assessment item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.AssessmentInfo">
+            <summary>
+            The Assessment item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.GroupEnd_Bleeding">
+            <summary>
+            The GroupEnd_Bleeding item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.GroupEnd_BleedingInfo">
+            <summary>
+            The GroupEnd_Bleeding item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.General">
+            <summary>
+            The General item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.GeneralInfo">
+            <summary>
+            The General item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.AddEvent">
+            <summary>
+            The AddEvent item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.AddEventInfo">
+            <summary>
+            The AddEvent item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.YesButtonForMultipleFunctions">
+            <summary>
+            The YesButtonForMultipleFunctions item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.YesButtonForMultipleFunctionsInfo">
+            <summary>
+            The YesButtonForMultipleFunctions item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.AddLabel">
+            <summary>
+            The AddLabel item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.AddLabelInfo">
+            <summary>
+            The AddLabel item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.AddBlank">
+            <summary>
+            The AddBlank item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.AddBlankInfo">
+            <summary>
+            The AddBlank item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.DeleteButton">
+            <summary>
+            The DeleteButton item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.DeleteButtonInfo">
+            <summary>
+            The DeleteButton item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.EditButton">
+            <summary>
+            The EditButton item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.EditButtonInfo">
+            <summary>
+            The EditButton item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.File">
+            <summary>
+            The File item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.FileInfo">
+            <summary>
+            The File item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.ReportTypeDropDown">
+            <summary>
+            The ReportTypeDropDown item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.ReportTypeDropDownInfo">
+            <summary>
+            The ReportTypeDropDown item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.Settings">
+            <summary>
+            The Settings item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.SettingsInfo">
+            <summary>
+            The Settings item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.ClearAllButton">
+            <summary>
+            The ClearAllButton item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.ClearAllButtonInfo">
+            <summary>
+            The ClearAllButton item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.DownButton">
+            <summary>
+            The DownButton item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.DownButtonInfo">
+            <summary>
+            The DownButton item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.TempusProConfigurationUtilityAppFolder.MainDG">
+            <summary>
+            The MainDG folder.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder">
+            <summary>
+            The MainDGFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MainDG  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_CardiacArrest">
+            <summary>
+            The GroupEnd_CardiacArrest item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_CardiacArrestInfo">
+            <summary>
+            The GroupEnd_CardiacArrest item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_Chocking">
+            <summary>
+            The GroupEnd_Chocking item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_ChockingInfo">
+            <summary>
+            The GroupEnd_Chocking item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_Confused">
+            <summary>
+            The GroupEnd_Confused item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_ConfusedInfo">
+            <summary>
+            The GroupEnd_Confused item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_Disoriented">
+            <summary>
+            The GroupEnd_Disoriented item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_DisorientedInfo">
+            <summary>
+            The GroupEnd_Disoriented item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_Fainted">
+            <summary>
+            The GroupEnd_Fainted item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_FaintedInfo">
+            <summary>
+            The GroupEnd_Fainted item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_LossOfPulse">
+            <summary>
+            The GroupEnd_LossOfPulse item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_LossOfPulseInfo">
+            <summary>
+            The GroupEnd_LossOfPulse item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_Seizure">
+            <summary>
+            The GroupEnd_Seizure item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_SeizureInfo">
+            <summary>
+            The GroupEnd_Seizure item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_RespiratoryArrest">
+            <summary>
+            The GroupEnd_RespiratoryArrest item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_RespiratoryArrestInfo">
+            <summary>
+            The GroupEnd_RespiratoryArrest item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_ROSC">
+            <summary>
+            The GroupEnd_ROSC item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_ROSCInfo">
+            <summary>
+            The GroupEnd_ROSC item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_Vomited">
+            <summary>
+            The GroupEnd_Vomited item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GroupEnd_VomitedInfo">
+            <summary>
+            The GroupEnd_Vomited item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.General_Bleeding">
+            <summary>
+            The General_Bleeding item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.General_BleedingInfo">
+            <summary>
+            The General_Bleeding item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GeneralTabBleeding">
+            <summary>
+            The GeneralTabBleeding item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GeneralTabBleedingInfo">
+            <summary>
+            The GeneralTabBleeding item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GeneralTabScrollDown">
+            <summary>
+            The GeneralTabScrollDown item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.GeneralTabScrollDownInfo">
+            <summary>
+            The GeneralTabScrollDown item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.NewAddedEvent">
+            <summary>
+            The NewAddedEvent item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.NewAddedEventInfo">
+            <summary>
+            The NewAddedEvent item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.CODERESERVEDLABEL">
+            <summary>
+            The CODERESERVEDLABEL item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.CODERESERVEDLABELInfo">
+            <summary>
+            The CODERESERVEDLABEL item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.CODERESERVEDBLANK">
+            <summary>
+            The CODERESERVEDBLANK item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.CODERESERVEDBLANKInfo">
+            <summary>
+            The CODERESERVEDBLANK item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.AirwayIntact">
+            <summary>
+            The AirwayIntact item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.MainDGFolder.AirwayIntactInfo">
+            <summary>
+            The AirwayIntact item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.EventEditorAppFolder">
+            <summary>
+            The EventEditorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.EventEditorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EventEditor  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EventEditorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EventEditorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EventEditorAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EventEditorAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.AddEventAppFolder">
+            <summary>
+            The AddEventAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.AddEventAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddEvent  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.AddEventAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.AddEventAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.AddEventAppFolder.DgName">
+            <summary>
+            The DgName folder.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder">
+            <summary>
+            The DgNameFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DgName  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.OKButton">
+            <summary>
+            The OKButton item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.OKButtonInfo">
+            <summary>
+            The OKButton item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.Code">
+            <summary>
+            The Code item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.CodeInfo">
+            <summary>
+            The Code item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.EventName">
+            <summary>
+            The EventName item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.DgNameFolder.EventNameInfo">
+            <summary>
+            The EventName item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.EventsFolders.EditEventAppFolder">
+            <summary>
+            The EditEventAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.EventsFolders.EditEventAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EditEvent  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EditEventAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EditEventAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EditEventAppFolder.EditingEventName">
+            <summary>
+            The EditingEventName item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EditEventAppFolder.EditingEventNameInfo">
+            <summary>
+            The EditingEventName item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EditEventAppFolder.OKButton">
+            <summary>
+            The OKButton item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.EventsFolders.EditEventAppFolder.OKButtonInfo">
+            <summary>
+            The OKButton item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.TabClicks">
+            <summary>
+            Description of Class1.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LaunchAndCloseApp">
+            <summary>
+            Description of Class1.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LaunchAppPage">
+            <summary>
+            The class representing the LaunchAppPage element repository.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.LaunchAppPage.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPage.Instance">
+            <summary>
+            Gets the singleton class instance representing the LaunchAppPage element repository.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPage.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPage.LaunchAppPageElements">
+            <summary>
+            The LaunchAppPageElements folder.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LaunchAppPageFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder">
+            <summary>
+            The LaunchAppPageElementsAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LaunchAppPageElements  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.Events">
+            <summary>
+            The Events item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.EventsInfo">
+            <summary>
+            The Events item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.New_Patient_Defaults">
+            <summary>
+            The New_Patient_Defaults item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.New_Patient_DefaultsInfo">
+            <summary>
+            The New_Patient_Defaults item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.Communications">
+            <summary>
+            The Communications item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.CommunicationsInfo">
+            <summary>
+            The Communications item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.Codes_Other">
+            <summary>
+            The Codes_Other item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.Codes_OtherInfo">
+            <summary>
+            The Codes_Other item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.NewItem">
+            <summary>
+            The NewItem item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.LaunchAppPageFolders.LaunchAppPageElementsAppFolder.NewItemInfo">
+            <summary>
+            The NewItem item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1Repository">
+            <summary>
+            The class representing the TempusSimulatorDemoTest1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TempusSimulatorDemoTest1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1Repository.TempusProConfigurationUtility">
+            <summary>
+            The TempusProConfigurationUtility folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1Repository.BrowseForFolder">
+            <summary>
+            The BrowseForFolder folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1Repository.TempusProConfigurationUtility1">
+            <summary>
+            The TempusProConfigurationUtility1 folder.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder">
+            <summary>
+            The TempusProConfigurationUtilityAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TempusProConfigurationUtility  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.File">
+            <summary>
+            The File item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.FileInfo">
+            <summary>
+            The File item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.ToggleButton">
+            <summary>
+            The ToggleButton item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.ToggleButtonInfo">
+            <summary>
+            The ToggleButton item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.Settings">
+            <summary>
+            The Settings item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtilityAppFolder.SettingsInfo">
+            <summary>
+            The Settings item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.BrowseForFolderAppFolder">
+            <summary>
+            The BrowseForFolderAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.BrowseForFolderAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BrowseForFolder  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.BrowseForFolderAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.BrowseForFolderAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.BrowseForFolderAppFolder.TreeItem601033TempusProConfig">
+            <summary>
+            The TreeItem601033TempusProConfig item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.BrowseForFolderAppFolder.TreeItem601033TempusProConfigInfo">
+            <summary>
+            The TreeItem601033TempusProConfig item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.BrowseForFolderAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.BrowseForFolderAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtility1AppFolder">
+            <summary>
+            The TempusProConfigurationUtility1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtility1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TempusProConfigurationUtility1  folder.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtility1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtility1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtility1AppFolder.ListItemTC3">
+            <summary>
+            The ListItemTC3 item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtility1AppFolder.ListItemTC3Info">
+            <summary>
+            The ListItemTC3 item info.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtility1AppFolder.HighlightTC3LinkedEvents">
+            <summary>
+            The HighlightTC3LinkedEvents item.
+            </summary>
+        </member>
+        <member name="P:TempusSimulatorDemoTest1.TempusSimulatorDemoTest1RepositoryFolders.TempusProConfigurationUtility1AppFolder.HighlightTC3LinkedEventsInfo">
+            <summary>
+            The HighlightTC3LinkedEvents item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

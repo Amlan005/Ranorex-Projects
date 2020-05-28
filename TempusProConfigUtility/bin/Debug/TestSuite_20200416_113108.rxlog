@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="RanorexReport.xsl"?>
+<log title="Ranorex Test Report" rxversion="9.2.0.0" osversion="Windows 10 64bit" runtimeversion="4.0.30319.42000" procarch="32bit">
+<message time="2020/04/16 11:33:24.250" level="ALWAYS" category="User" style="" codefile="c:\Users\Renorex.Kolkata\Documents\Ranorex\RanorexStudio Projects\TestWindowsApp3\TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Reports.cs" codeline="105">
+<![CDATA[FileCopied]]><br/>
+</message>
+</log>

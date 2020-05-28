@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.2.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{593532F3-D7FC-486D-BD37-EFF5AA833AEC}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{2711269A-DF78-41F3-8CFF-09CBD910B438}"
+	ProjectSection(SolutionItems) = postProject
+		TempusSimulatorDemoTest1\BaseClass.cs = TempusSimulatorDemoTest1\BaseClass.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{0321DFD0-E534-4267-BDC1-9F4FBE48C561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempusProConfigUtility", "TempusProConfigUtility\TempusProConfigUtility.csproj", "{B41AB236-BB17-4DD5-842E-48818399DDCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0321DFD0-E534-4267-BDC1-9F4FBE48C561}.Debug|x86.Build.0 = Debug|x86
+		{0321DFD0-E534-4267-BDC1-9F4FBE48C561}.Debug|x86.ActiveCfg = Debug|x86
+		{0321DFD0-E534-4267-BDC1-9F4FBE48C561}.Release|x86.Build.0 = Release|x86
+		{0321DFD0-E534-4267-BDC1-9F4FBE48C561}.Release|x86.ActiveCfg = Release|x86
+		{B41AB236-BB17-4DD5-842E-48818399DDCF}.Debug|x86.Build.0 = Debug|x86
+		{B41AB236-BB17-4DD5-842E-48818399DDCF}.Debug|x86.ActiveCfg = Debug|x86
+		{B41AB236-BB17-4DD5-842E-48818399DDCF}.Release|x86.Build.0 = Release|x86
+		{B41AB236-BB17-4DD5-842E-48818399DDCF}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

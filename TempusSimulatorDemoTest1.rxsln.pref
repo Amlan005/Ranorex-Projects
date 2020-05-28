@@ -1,0 +1,20 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="TempusSimulatorDemoTest1\BaseClass.cs" />
+  </Array>
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{0321DFD0-E534-4267-BDC1-9F4FBE48C561}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>Modules</string>
+      <string>{B41AB236-BB17-4DD5-842E-48818399DDCF}</string>
+      <string>f4245f07-538a-414b-b3d0-900d77cd72c7</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution TempusSimulatorDemoTest1[Ranorex Automation Helpers[]TempusSimulatorDemoTest1[Events.rxrep[]]]]&#xD;&#xA;Solution TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\Reports.cs&#xD;&#xA;Solution TempusSimulatorDemoTest1\TempusSimulatorDemoTest1\NewCustomTemplate1" />
+  <StartupProject value="{B41AB236-BB17-4DD5-842E-48818399DDCF}" />
+</Properties>

@@ -1,0 +1,26 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Reports.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Reports.cs" />
+    <Element value="TabClicks.cs" />
+    <Element value="BaseClass.cs" />
+    <Element value="LoadConfig.cs" />
+    <Element value="LaunchApp.cs" />
+    <Element value="ConfigFileReader.cs" />
+    <Element value="LoadConfiguration.rxrep" />
+    <Element value="Events.rxrep" />
+    <Element value="LaunchAppPage.rxrep" />
+    <Element value="RunManager.cs" />
+    <Element value="Event_Operations.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

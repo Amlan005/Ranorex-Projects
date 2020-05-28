@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="BaseClass.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="RunManager.cs" />
+    <Element value="ReportPieChart.cs" />
+    <Element value="BaseClass.cs" />
+    <Element value="Reports.cs" />
+    <Element value="TestDataFile.cs" />
+    <Element value="ConfigFileReader.cs" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

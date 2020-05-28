@@ -1,0 +1,65 @@
+﻿<repository
+id="ce4b52bb-c2b9-4c53-bbf4-28a87144acc7"
+name="LaunchAppPage">
+	<codegen
+	classname="LaunchAppPage"
+	namespace="TempusSimulatorDemoTest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="cfa05188-5c96-4b10-a237-80a306844845"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="tabpage"
+		id="f615fbd7-f37d-4501-b164-65165565f976"
+		isrooted="True"
+		name="LaunchAppPageElements"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="tabpage"
+			id="c8fe3bcd-e0d3-4e88-8314-cab0cafd3d06"
+			name="Events"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='Events']
+			</item>
+			<item
+			capname="tabpage"
+			id="243c7417-4470-4a04-8247-ae62f6b2ffa3"
+			name="New_Patient_Defaults"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/tabpage[@title='New patient defaults']
+			</item>
+			<item
+			capname="text"
+			id="1a047064-1388-4362-ba9e-3802c06c6faf"
+			name="Communications"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/?/?/text[@caption='Communications']
+			</item>
+			<item
+			capname="text"
+			id="f64e047a-c154-4b2b-a79b-96ef41016a57"
+			name="Codes_Other"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Tempus Pro Configuration']/?/?/tabpagelist[@automationid='mainTab']/?/?/text[@caption='Codes / Other']
+			</item>
+			<item
+			capname="unknown"
+			id="9987fbfe-e99f-4f51-bf34-94bb187038a3"
+			name="NewItem"
+			searchtimeout="30000ms">
+				/element
+			</item>
+			<basepath>
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

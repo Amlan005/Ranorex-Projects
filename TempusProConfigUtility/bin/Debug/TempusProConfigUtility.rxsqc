@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "TestSuite",
+    "RunConfig": "TestRun"
+  }
+]
