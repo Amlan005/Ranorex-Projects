@@ -4,12 +4,12 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="RunManager.cs" />
-    <Element value="ReportPieChart.cs" />
     <Element value="BaseClass.cs" />
-    <Element value="Reports.cs" />
-    <Element value="TestDataFile.cs" />
     <Element value="ConfigFileReader.cs" />
+    <Element value="TestDataFile.cs" />
+    <Element value="Reports.cs" />
+    <Element value="ReportPieChart.cs" />
+    <Element value="RunManager.cs" />
   </Array>
   <Properties name="projectSavedData" />
 </Properties>
